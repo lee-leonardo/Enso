@@ -14,6 +14,7 @@
 		388AC75919CA99300083A276 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388AC75819CA99300083A276 /* Images.xcassets */; };
 		388AC75C19CA99300083A276 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388AC75A19CA99300083A276 /* LaunchScreen.xib */; };
 		388AC76819CA99300083A276 /* EnsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AC76719CA99300083A276 /* EnsoTests.swift */; };
+		38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		388AC76119CA99300083A276 /* EnsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnsoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388AC76619CA99300083A276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388AC76719CA99300083A276 /* EnsoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsoTests.swift; sourceTree = "<group>"; };
+		38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsoDocumentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +137,17 @@
 			isa = PBXGroup;
 			children = (
 				388AC75319CA99300083A276 /* ViewController.swift */,
+				38A5FB1719CAA84800FCB998 /* Specialized Controllers */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		38A5FB1719CAA84800FCB998 /* Specialized Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */,
+			);
+			name = "Specialized Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 				TargetAttributes = {
 					388AC74819CA99300083A276 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = KT656SWTSZ;
 					};
 					388AC76019CA99300083A276 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -242,6 +254,7 @@
 				388AC75419CA99300083A276 /* ViewController.swift in Sources */,
 				388AC75219CA99300083A276 /* Enso.xcdatamodeld in Sources */,
 				388AC74F19CA99300083A276 /* AppDelegate.swift in Sources */,
+				38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +379,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Enso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Enso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +450,7 @@
 				388AC76D19CA99300083A276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		388AC76E19CA99300083A276 /* Build configuration list for PBXNativeTarget "EnsoTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +459,7 @@
 				388AC77019CA99300083A276 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
