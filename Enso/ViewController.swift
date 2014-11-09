@@ -26,6 +26,10 @@ class ViewController: UIViewController {
         }
         logInButton.center = self.view.center
         self.view.addSubview(logInButton)
+        
+        let loginView = FBLoginView()
+        loginView.center = self.view.center
+        self.view.addSubview(loginView)
     
     }
 
