@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TwitterKit
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        let logInButton = TWTRLogInButton { (session, error) -> Void in
+            //
+            if error != nil {
+                println("\(error.localizedDescription)")
+            } else {
+                println("\(session)")
+                println("Hi!")
+            }
+        }
+        logInButton.center = self.view.center
+        self.view.addSubview(logInButton)
+    
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F001A0EEA65006EC126 /* CloudKit.framework */; };
+		385F7F031A0EEA7C006EC126 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F021A0EEA7C006EC126 /* Social.framework */; };
+		385F7F051A0EEA81006EC126 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F041A0EEA81006EC126 /* AddressBook.framework */; };
+		385F7F0A1A0EEAD4006EC126 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F081A0EEAD4006EC126 /* Crashlytics.framework */; };
+		385F7F0B1A0EEAD4006EC126 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F091A0EEAD4006EC126 /* Fabric.framework */; };
+		385F7F0E1A0EEB3E006EC126 /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F0C1A0EEB3E006EC126 /* TwitterKit.framework */; };
+		385F7F0F1A0EEB3E006EC126 /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 385F7F0D1A0EEB3E006EC126 /* TwitterKitResources.bundle */; };
 		388AC74F19CA99300083A276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AC74E19CA99300083A276 /* AppDelegate.swift */; };
 		388AC75219CA99300083A276 /* Enso.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 388AC75019CA99300083A276 /* Enso.xcdatamodeld */; };
 		388AC75419CA99300083A276 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AC75319CA99300083A276 /* ViewController.swift */; };
@@ -29,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		385F7F001A0EEA65006EC126 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		385F7F021A0EEA7C006EC126 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		385F7F041A0EEA81006EC126 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		385F7F081A0EEAD4006EC126 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		385F7F091A0EEAD4006EC126 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		385F7F0C1A0EEB3E006EC126 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		385F7F0D1A0EEB3E006EC126 /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		388AC74919CA99300083A276 /* Enso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388AC74D19CA99300083A276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388AC74E19CA99300083A276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385F7F051A0EEA81006EC126 /* AddressBook.framework in Frameworks */,
+				385F7F0B1A0EEAD4006EC126 /* Fabric.framework in Frameworks */,
+				385F7F031A0EEA7C006EC126 /* Social.framework in Frameworks */,
+				385F7F0A1A0EEAD4006EC126 /* Crashlytics.framework in Frameworks */,
+				385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */,
+				385F7F0E1A0EEB3E006EC126 /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +83,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385F7F061A0EEA88006EC126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				385F7F091A0EEAD4006EC126 /* Fabric.framework */,
+				385F7F0C1A0EEB3E006EC126 /* TwitterKit.framework */,
+				385F7F0D1A0EEB3E006EC126 /* TwitterKitResources.bundle */,
+				385F7F081A0EEAD4006EC126 /* Crashlytics.framework */,
+				385F7F041A0EEA81006EC126 /* AddressBook.framework */,
+				385F7F021A0EEA7C006EC126 /* Social.framework */,
+				385F7F001A0EEA65006EC126 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		388AC74019CA99300083A276 = {
 			isa = PBXGroup;
 			children = (
+				385F7F061A0EEA88006EC126 /* Frameworks */,
 				388AC74B19CA99300083A276 /* Enso */,
 				388AC76419CA99300083A276 /* EnsoTests */,
 				388AC74A19CA99300083A276 /* Products */,
@@ -84,7 +119,6 @@
 		388AC74B19CA99300083A276 /* Enso */ = {
 			isa = PBXGroup;
 			children = (
-				38EDAA3B1A0C034700C6EE69 /* Enso.entitlements */,
 				388AC74E19CA99300083A276 /* AppDelegate.swift */,
 				388AC77119CA99360083A276 /* Model */,
 				388AC77319CA99430083A276 /* Controller */,
@@ -98,6 +132,7 @@
 		388AC74C19CA99300083A276 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38EDAA3B1A0C034700C6EE69 /* Enso.entitlements */,
 				388AC74D19CA99300083A276 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -165,6 +200,7 @@
 				388AC74519CA99300083A276 /* Sources */,
 				388AC74619CA99300083A276 /* Frameworks */,
 				388AC74719CA99300083A276 /* Resources */,
+				385F7F071A0EEABF006EC126 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -247,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385F7F0F1A0EEB3E006EC126 /* TwitterKitResources.bundle in Resources */,
 				388AC75719CA99300083A276 /* Main.storyboard in Resources */,
 				388AC75C19CA99300083A276 /* LaunchScreen.xib in Resources */,
 				388AC75919CA99300083A276 /* Images.xcassets in Resources */,
@@ -261,6 +298,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		385F7F071A0EEABF006EC126 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run b27867868d56ac0aa5505130348bb038aa2afb64 fadf119c5dec828e8f7753bb64901e769e4bc0d1488ef0d22294e5c92aca52b0";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		388AC74519CA99300083A276 /* Sources */ = {
@@ -399,6 +452,10 @@
 				CODE_SIGN_ENTITLEMENTS = Enso/Enso.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Enso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +470,10 @@
 				CODE_SIGN_ENTITLEMENTS = Enso/Enso.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Enso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
