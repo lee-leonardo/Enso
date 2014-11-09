@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38104AB61A1002EA00732839 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38104AB41A1002EA00732839 /* Bolts.framework */; };
+		38104AB71A1002EB00732839 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38104AB51A1002EA00732839 /* FacebookSDK.framework */; };
 		385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F001A0EEA65006EC126 /* CloudKit.framework */; };
 		385F7F031A0EEA7C006EC126 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F021A0EEA7C006EC126 /* Social.framework */; };
 		385F7F051A0EEA81006EC126 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F041A0EEA81006EC126 /* AddressBook.framework */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38104AB41A1002EA00732839 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		38104AB51A1002EA00732839 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		38104AB81A1003A200732839 /* Enso-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enso-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		385F7F001A0EEA65006EC126 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		385F7F021A0EEA7C006EC126 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		385F7F041A0EEA81006EC126 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -69,7 +74,9 @@
 				385F7F031A0EEA7C006EC126 /* Social.framework in Frameworks */,
 				385F7F0A1A0EEAD4006EC126 /* Crashlytics.framework in Frameworks */,
 				385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */,
+				38104AB71A1002EB00732839 /* FacebookSDK.framework in Frameworks */,
 				385F7F0E1A0EEB3E006EC126 /* TwitterKit.framework in Frameworks */,
+				38104AB61A1002EA00732839 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,8 @@
 		385F7F061A0EEA88006EC126 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38104AB41A1002EA00732839 /* Bolts.framework */,
+				38104AB51A1002EA00732839 /* FacebookSDK.framework */,
 				385F7F091A0EEAD4006EC126 /* Fabric.framework */,
 				385F7F0C1A0EEB3E006EC126 /* TwitterKit.framework */,
 				385F7F0D1A0EEB3E006EC126 /* TwitterKitResources.bundle */,
@@ -119,6 +128,7 @@
 		388AC74B19CA99300083A276 /* Enso */ = {
 			isa = PBXGroup;
 			children = (
+				38104AB81A1003A200732839 /* Enso-Bridging-Header.h */,
 				388AC74E19CA99300083A276 /* AppDelegate.swift */,
 				388AC77119CA99360083A276 /* Model */,
 				388AC77319CA99430083A276 /* Controller */,
@@ -449,17 +459,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Enso/Enso.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/leoleez/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = Enso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Enso-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -467,17 +481,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Enso/Enso.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/leoleez/Documents/FacebookSDK,
 				);
 				INFOPLIST_FILE = Enso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Enso-Bridging-Header.h";
 			};
 			name = Release;
 		};
