@@ -25,6 +25,7 @@
 		388AC76819CA99300083A276 /* EnsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AC76719CA99300083A276 /* EnsoTests.swift */; };
 		38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */; };
 		38B5AB0B1A084E4E00BC6EC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */; };
+		38E17A551A11840700CEC32E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E17A541A11840700CEC32E /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		388AC76719CA99300083A276 /* EnsoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsoTests.swift; sourceTree = "<group>"; };
 		38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsoDocumentController.swift; sourceTree = "<group>"; };
 		38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		38E17A541A11840700CEC32E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		38EDAA3B1A0C034700C6EE69 /* Enso.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Enso.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				388AC75319CA99300083A276 /* ViewController.swift */,
+				38E17A541A11840700CEC32E /* LogInViewController.swift */,
 				38A5FB1719CAA84800FCB998 /* Specialized Controllers */,
 			);
 			name = Controller;
@@ -333,6 +336,7 @@
 			files = (
 				38B5AB0B1A084E4E00BC6EC4 /* Extensions.swift in Sources */,
 				388AC75419CA99300083A276 /* ViewController.swift in Sources */,
+				38E17A551A11840700CEC32E /* LogInViewController.swift in Sources */,
 				388AC75219CA99300083A276 /* Enso.xcdatamodeld in Sources */,
 				388AC74F19CA99300083A276 /* AppDelegate.swift in Sources */,
 				38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */,
