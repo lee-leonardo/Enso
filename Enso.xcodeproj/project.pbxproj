@@ -23,6 +23,7 @@
 		388AC75919CA99300083A276 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 388AC75819CA99300083A276 /* Images.xcassets */; };
 		388AC75C19CA99300083A276 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388AC75A19CA99300083A276 /* LaunchScreen.xib */; };
 		388AC76819CA99300083A276 /* EnsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AC76719CA99300083A276 /* EnsoTests.swift */; };
+		38A1F7C91A11993F00D80F86 /* FacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F7C81A11993F00D80F86 /* FacebookController.swift */; };
 		38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */; };
 		38B5AB0B1A084E4E00BC6EC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */; };
 		38E17A551A11840700CEC32E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E17A541A11840700CEC32E /* LogInViewController.swift */; };
@@ -60,6 +61,7 @@
 		388AC76119CA99300083A276 /* EnsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnsoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		388AC76619CA99300083A276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388AC76719CA99300083A276 /* EnsoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsoTests.swift; sourceTree = "<group>"; };
+		38A1F7C81A11993F00D80F86 /* FacebookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookController.swift; sourceTree = "<group>"; };
 		38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsoDocumentController.swift; sourceTree = "<group>"; };
 		38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		38E17A541A11840700CEC32E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		384BB7011A129D0600576356 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
 		385F7F061A0EEA88006EC126 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +145,7 @@
 				388AC77319CA99430083A276 /* Controller */,
 				388AC77219CA993E0083A276 /* View */,
 				388AC75819CA99300083A276 /* Images.xcassets */,
+				384BB7011A129D0600576356 /* Icons */,
 				388AC74C19CA99300083A276 /* Supporting Files */,
 			);
 			path = Enso;
@@ -199,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */,
+				38A1F7C81A11993F00D80F86 /* FacebookController.swift */,
 			);
 			name = "Specialized Controllers";
 			sourceTree = "<group>";
@@ -340,6 +351,7 @@
 				388AC75219CA99300083A276 /* Enso.xcdatamodeld in Sources */,
 				388AC74F19CA99300083A276 /* AppDelegate.swift in Sources */,
 				38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */,
+				38A1F7C91A11993F00D80F86 /* FacebookController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

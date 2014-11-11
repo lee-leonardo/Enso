@@ -9,7 +9,7 @@
 import UIKit
 import TwitterKit
 
-class LogInViewController: UIViewController {
+class LogInViewController: UIViewController, FBLoginViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class LogInViewController: UIViewController {
         let logInButton = TWTRLogInButton { (session, error) -> Void in
             //
             if error != nil {
-                println("\(error.localizedDescription)")
+                println("Error: \(error.localizedDescription)")
             } else {
                 println("\(session)")
                 println("Hi!")
@@ -31,6 +31,7 @@ class LogInViewController: UIViewController {
         
         let loginView = FBLoginView()
         loginView.center = CGPoint(x: self.view.center.x, y: self.view.center.y + CGFloat(44))
+        loginView.delegate = self
         self.view.addSubview(loginView)
         
     }
@@ -40,6 +41,23 @@ class LogInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //MARK: Facebook Delegate
+    func loginView(loginView: FBLoginView!, handleError error: NSError!) {
+        if error != nil {
+            println("\(error.localizedDescription)")
+        }
+    }
     
+    func loginViewFetchedUserInfo(loginView: FBLoginView!, user: FBGraphUser!) {
+        //
+    }
+    
+    func loginViewShowingLoggedInUser(loginView: FBLoginView!) {
+        //
+    }
+    
+    func loginViewShowingLoggedOutUser(loginView: FBLoginView!) {
+        //
+    }
 
 }

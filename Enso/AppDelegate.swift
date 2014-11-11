@@ -23,11 +23,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Fabric.with([Crashlytics(), Twitter()])
         
+        //FBLoginView?
+        
         return true
     }
     
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
-        return FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        
+        let facebook = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        
+        return facebook
+        //  || others when you are done.
     }
 
     func applicationWillResignActive(application: UIApplication) {
