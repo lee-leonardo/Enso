@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		38104BD31A10053200732839 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38104ABD1A10053200732839 /* Bolts.framework */; };
 		38104BD41A10053200732839 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38104ABE1A10053200732839 /* FacebookSDK.framework */; };
+		384BB7081A12B6BD00576356 /* Twitter_logo_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 384BB7061A12B6BD00576356 /* Twitter_logo_blue.png */; };
+		384BB70B1A12B72B00576356 /* FB-fLogo-Blue-printpackaging.tif in Resources */ = {isa = PBXBuildFile; fileRef = 384BB70A1A12B72B00576356 /* FB-fLogo-Blue-printpackaging.tif */; };
 		385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F001A0EEA65006EC126 /* CloudKit.framework */; };
 		385F7F031A0EEA7C006EC126 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F021A0EEA7C006EC126 /* Social.framework */; };
 		385F7F051A0EEA81006EC126 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F041A0EEA81006EC126 /* AddressBook.framework */; };
@@ -43,6 +45,8 @@
 		38104AB81A1003A200732839 /* Enso-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enso-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		38104ABD1A10053200732839 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
 		38104ABE1A10053200732839 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		384BB7061A12B6BD00576356 /* Twitter_logo_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_logo_blue.png; sourceTree = "<group>"; };
+		384BB70A1A12B72B00576356 /* FB-fLogo-Blue-printpackaging.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "FB-fLogo-Blue-printpackaging.tif"; sourceTree = "<group>"; };
 		385F7F001A0EEA65006EC126 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		385F7F021A0EEA7C006EC126 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		385F7F041A0EEA81006EC126 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
@@ -97,6 +101,8 @@
 		384BB7011A129D0600576356 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				384BB70A1A12B72B00576356 /* FB-fLogo-Blue-printpackaging.tif */,
+				384BB7061A12B6BD00576356 /* Twitter_logo_blue.png */,
 			);
 			name = Icons;
 			sourceTree = "<group>";
@@ -311,7 +317,9 @@
 				385F7F0F1A0EEB3E006EC126 /* TwitterKitResources.bundle in Resources */,
 				388AC75719CA99300083A276 /* Main.storyboard in Resources */,
 				388AC75C19CA99300083A276 /* LaunchScreen.xib in Resources */,
+				384BB70B1A12B72B00576356 /* FB-fLogo-Blue-printpackaging.tif in Resources */,
 				388AC75919CA99300083A276 /* Images.xcassets in Resources */,
+				384BB7081A12B6BD00576356 /* Twitter_logo_blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

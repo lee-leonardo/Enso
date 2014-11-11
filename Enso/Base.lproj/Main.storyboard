@@ -34,9 +34,69 @@
                     <view key="view" contentMode="scaleToFill" id="SEK-Uh-Cze">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logged in as:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9n-gq-0Hr">
+                                <rect key="frame" x="158" y="132" width="104" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a5F-fP-gnX">
+                                <rect key="frame" x="180" y="64" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="gDq-i8-jbD"/>
+                                    <constraint firstAttribute="height" constant="60" id="r4C-BL-8sf"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FB-fLogo-Blue-printpackaging.tif" translatesAutoresizingMaskIntoConstraints="NO" id="4Mn-eN-gxj">
+                                <rect key="frame" x="360" y="64" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="eFG-o6-QZX"/>
+                                    <constraint firstAttribute="width" constant="60" id="yge-TV-Bxb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logged in as:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fex-lf-unS">
+                                <rect key="frame" x="338" y="132" width="104" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FBName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aF-z8-xgE">
+                                <rect key="frame" x="356" y="160" width="67" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TWTRName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4v0-qs-t39">
+                                <rect key="frame" x="164" y="160" width="93" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4v0-qs-t39" firstAttribute="top" secondItem="K9n-gq-0Hr" secondAttribute="bottom" constant="8" id="0X0-Bz-wI3"/>
+                            <constraint firstItem="a5F-fP-gnX" firstAttribute="centerX" secondItem="K9n-gq-0Hr" secondAttribute="centerX" id="4fZ-gK-c3v"/>
+                            <constraint firstAttribute="centerX" secondItem="4Mn-eN-gxj" secondAttribute="centerX" constant="-90" id="Aha-B9-Ywu"/>
+                            <constraint firstItem="fex-lf-unS" firstAttribute="top" secondItem="4Mn-eN-gxj" secondAttribute="bottom" constant="8" id="B11-nj-5Jw"/>
+                            <constraint firstAttribute="centerX" secondItem="a5F-fP-gnX" secondAttribute="centerX" constant="90" id="G58-cH-XiN"/>
+                            <constraint firstItem="4Mn-eN-gxj" firstAttribute="top" secondItem="2rJ-tz-ekn" secondAttribute="bottom" constant="44" id="cx5-fC-bBe"/>
+                            <constraint firstItem="a5F-fP-gnX" firstAttribute="centerX" secondItem="4v0-qs-t39" secondAttribute="centerX" id="dTv-lQ-8wR"/>
+                            <constraint firstItem="a5F-fP-gnX" firstAttribute="top" secondItem="2rJ-tz-ekn" secondAttribute="bottom" constant="44" id="j1H-JB-Ydn"/>
+                            <constraint firstItem="K9n-gq-0Hr" firstAttribute="top" secondItem="a5F-fP-gnX" secondAttribute="bottom" constant="8" id="j6o-6G-CR1"/>
+                            <constraint firstItem="fex-lf-unS" firstAttribute="centerX" secondItem="4Mn-eN-gxj" secondAttribute="centerX" id="lha-17-XAj"/>
+                            <constraint firstItem="2aF-z8-xgE" firstAttribute="top" secondItem="fex-lf-unS" secondAttribute="bottom" constant="8" id="lk1-mY-DbZ"/>
+                            <constraint firstItem="fex-lf-unS" firstAttribute="centerX" secondItem="2aF-z8-xgE" secondAttribute="centerX" id="zWO-s0-vMw"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Log In" id="UpL-hB-hRe"/>
+                    <connections>
+                        <outlet property="facebookImage" destination="4Mn-eN-gxj" id="ZcK-lj-X7Q"/>
+                        <outlet property="facebookUN" destination="2aF-z8-xgE" id="mll-qy-T5Z"/>
+                        <outlet property="twitterImage" destination="a5F-fP-gnX" id="PGX-tq-4NW"/>
+                        <outlet property="twitterUN" destination="4v0-qs-t39" id="sYA-fM-946"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qa0-iz-RHz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,4 +122,7 @@
             <point key="canvasLocation" x="175" y="-596"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FB-fLogo-Blue-printpackaging.tif" width="2134" height="2135"/>
+    </resources>
 </document>
