@@ -16,8 +16,6 @@ class LogInViewController: UIViewController, FBLoginViewDelegate {
     @IBOutlet weak var facebookImage: UIImageView!
     @IBOutlet weak var facebookUN: UILabel!
     
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
