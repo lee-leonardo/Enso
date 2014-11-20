@@ -1,0 +1,13 @@
+PODS:
+  - HMSideMenu (1.1.0)
+  - RESideMenu (4.0.7)
+
+DEPENDENCIES:
+  - HMSideMenu (~> 1.1.0)
+  - RESideMenu (~> 4.0.4)
+
+SPEC CHECKSUMS:
+  HMSideMenu: 92a2b2cf545df3e0bfd147d16dda4ada548a42ea
+  RESideMenu: a9c1cd2e64e60e1d3166ddac01a83e215a0e4d30
+
+COCOAPODS: 0.34.2

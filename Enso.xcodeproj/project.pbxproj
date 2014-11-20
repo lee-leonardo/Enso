@@ -26,6 +26,7 @@
 		388AC75C19CA99300083A276 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 388AC75A19CA99300083A276 /* LaunchScreen.xib */; };
 		388AC76819CA99300083A276 /* EnsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AC76719CA99300083A276 /* EnsoTests.swift */; };
 		38A1F7C91A11993F00D80F86 /* FacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F7C81A11993F00D80F86 /* FacebookController.swift */; };
+		38A2B83E1A1DDB7400E16F67 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A2B83D1A1DDB7400E16F67 /* MenuViewController.swift */; };
 		38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */; };
 		38B5AB0B1A084E4E00BC6EC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */; };
 		38DAF2101A1DD92B0052DDB8 /* JMBackgroundCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF20F1A1DD92B0052DDB8 /* JMBackgroundCameraView.m */; };
@@ -70,6 +71,7 @@
 		388AC76619CA99300083A276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		388AC76719CA99300083A276 /* EnsoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnsoTests.swift; sourceTree = "<group>"; };
 		38A1F7C81A11993F00D80F86 /* FacebookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookController.swift; sourceTree = "<group>"; };
+		38A2B83D1A1DDB7400E16F67 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsoDocumentController.swift; sourceTree = "<group>"; };
 		38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		38DAF20E1A1DD92B0052DDB8 /* JMBackgroundCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBackgroundCameraView.h; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				388AC75319CA99300083A276 /* ViewController.swift */,
+				38A2B83D1A1DDB7400E16F67 /* MenuViewController.swift */,
 				38E17A541A11840700CEC32E /* LogInViewController.swift */,
 				38A5FB1719CAA84800FCB998 /* Specialized Controllers */,
 			);
@@ -418,6 +421,7 @@
 				388AC75419CA99300083A276 /* ViewController.swift in Sources */,
 				38E17A551A11840700CEC32E /* LogInViewController.swift in Sources */,
 				388AC75219CA99300083A276 /* Enso.xcdatamodeld in Sources */,
+				38A2B83E1A1DDB7400E16F67 /* MenuViewController.swift in Sources */,
 				388AC74F19CA99300083A276 /* AppDelegate.swift in Sources */,
 				38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */,
 				38DAF2101A1DD92B0052DDB8 /* JMBackgroundCameraView.m in Sources */,

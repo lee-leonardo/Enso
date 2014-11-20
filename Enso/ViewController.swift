@@ -9,18 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    var background : JMBackgroundCameraView!
     
+    var background : JMBackgroundCameraView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        background = JMBackgroundCameraView(frame: self.view.frame, positionDevice: DevicePositon.Back, blur: UIBlurEffectStyle.Light)
-        self.view.addSubview(background)
-    
     }
     
     override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        background = JMBackgroundCameraView(frame: self.view.frame, positionDevice: DevicePositon.Back, blur: UIBlurEffectStyle.Light)
+        self.view.addSubview(background)
     }
 }
 
