@@ -23,9 +23,9 @@ class LogInViewController: UIViewController, FBLoginViewDelegate {
 
         // Do any additional setup after loading the view.
         
-//        self.twitterImage.image = UIImage(named: "Twitter_logo_blue")
-//        self.twitterUN.text = "Placeholder"
-//        self.facebookUN.text = "Placeholder"
+        self.twitterImage.image = UIImage(named: "Twitter_logo_blue")
+        self.twitterUN.text = "Placeholder"
+        self.facebookUN.text = "Placeholder"
         
         let logInButton = TWTRLogInButton { (session, error) -> Void in
             //
