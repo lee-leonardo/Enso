@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var background : JMBackgroundCameraView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        background = JMBackgroundCameraView(frame: self.view.frame, positionDevice: DevicePositon.Back, blur: UIBlurEffectStyle.Light)
+        self.view.addSubview(background)
+        
     
     }
 

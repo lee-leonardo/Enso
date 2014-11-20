@@ -4,3 +4,10 @@
 
 #import <FacebookSDK/FacebookSDK.h>
 #import <Bolts/Bolts.h>
+
+#import "JMBackgroundCameraView.h"
+
+
+#import "RECommonFunctions.h"
+#import "RESideMenu.h"
+#import "UIViewController+RESideMenu.h"
