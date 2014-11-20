@@ -17,15 +17,10 @@ class ViewController: UIViewController {
         
         background = JMBackgroundCameraView(frame: self.view.frame, positionDevice: DevicePositon.Back, blur: UIBlurEffectStyle.Light)
         self.view.addSubview(background)
-        
     
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewWillAppear(animated: Bool) {
     }
-
-
 }
 

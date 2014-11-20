@@ -11,3 +11,6 @@
 #import "RECommonFunctions.h"
 #import "RESideMenu.h"
 #import "UIViewController+RESideMenu.h"
+
+#import "HMSideMenu.h"
+#import "HMSideMenuItem.h"

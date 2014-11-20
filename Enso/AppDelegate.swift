@@ -21,10 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        let nav = UINavigationController(rootViewController: ViewController())
+//        let nav = UINavigationController(rootViewController: ViewController())
         
-        let menu = RESideMenu(contentViewController: nav, leftMenuViewController: ViewController(), rightMenuViewController: nil)
+        let menu = RESideMenu(contentViewController: ViewController(), leftMenuViewController: ViewController(), rightMenuViewController: nil)
 //        menu.backgroundImage
+        
         self.window?.rootViewController = menu
         
         
