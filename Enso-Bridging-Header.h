@@ -4,6 +4,7 @@
 
 #import <FacebookSDK/FacebookSDK.h>
 #import <Bolts/Bolts.h>
+#import <Parse/Parse.h>
 
 #import "JMBackgroundCameraView.h"
 

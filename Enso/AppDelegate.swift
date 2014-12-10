@@ -31,6 +31,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Fabric.with([Crashlytics(), Twitter()])
         
+        //Parse
+        Parse.setApplicationId("4eOWIKqxUMDIfQB6JXeLeXZoaTmc1C7hzqEhqaW1", clientKey: "pmktO9djCkOT3iBC6vMiUzgT6cQU0Sn2yPTbwC6R")
+        
+        //UIUserNotificationSettings (Part of Parse)
+        var userNotificationTypes = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
+        var userSettings = UIUserNotificationSettings(forTypes: userNotificationTypes, categories: nil)
+        application.registerUserNotificationSettings(userSettings)
+        application.registerForRemoteNotifications()
+        
+        
         //FBLoginView?
         
         return true
@@ -70,6 +80,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
     }
+    
+    //MARK: - Remote Notifications
+    
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        let currentInstallation = PFInstallation.currentInstallation()
+        currentInstallation.setDeviceTokenFromData(deviceToken)
+        currentInstallation.saveInBackground()
+        
+    }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
+        PFPush.handlePush(userInfo)
+    }
+    
+    //MARK: - Location Notifications
+//    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
+//        
+//    }
+    
+//    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+//        
+//    }
+    
 
     // MARK: - Core Data stack
 
