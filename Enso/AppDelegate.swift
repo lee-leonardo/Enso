@@ -37,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //UIUserNotificationSettings (Part of Parse)
         var userNotificationTypes = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
         var userSettings = UIUserNotificationSettings(forTypes: userNotificationTypes, categories: nil)
-        application.registerUserNotificationSettings(userSettings)
+        application.registerUserNotificationSettings(userSettings) //Apple Reccomends this to be after line 41...
         application.registerForRemoteNotifications()
         
         

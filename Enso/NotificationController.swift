@@ -35,6 +35,21 @@ class NotificationController {
     
     
     func postNotification() {
+        var query = PFInstallation.query()
+        query.whereKey("deviceType", containsString: "ios")
+        
+        PFPush.sendPushMessageToQueryInBackground(query, withMessage: "This is a push up!") {
+            (success, error) -> Void in
+            if error != nil {
+                println("Error: \(error.localizedDescription)")
+            } else {
+                if success {
+                    println("Success")
+                } else {
+                    println("Not sure what happened...")
+                }
+            }
+        }
         
     }
     

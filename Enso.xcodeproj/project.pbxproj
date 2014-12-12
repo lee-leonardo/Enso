@@ -11,7 +11,6 @@
 		3830333B1A1DDD9500F46C83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3830333A1A1DDD9500F46C83 /* QuartzCore.framework */; };
 		384BB7081A12B6BD00576356 /* Twitter_logo_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 384BB7061A12B6BD00576356 /* Twitter_logo_blue.png */; };
 		384BB70B1A12B72B00576356 /* FB-fLogo-Blue-printpackaging.tif in Resources */ = {isa = PBXBuildFile; fileRef = 384BB70A1A12B72B00576356 /* FB-fLogo-Blue-printpackaging.tif */; };
-		385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F001A0EEA65006EC126 /* CloudKit.framework */; };
 		385F7F031A0EEA7C006EC126 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F021A0EEA7C006EC126 /* Social.framework */; };
 		385F7F051A0EEA81006EC126 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F041A0EEA81006EC126 /* AddressBook.framework */; };
 		385F7F0A1A0EEAD4006EC126 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385F7F081A0EEAD4006EC126 /* Crashlytics.framework */; };
@@ -66,7 +65,6 @@
 		3830333A1A1DDD9500F46C83 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		384BB7061A12B6BD00576356 /* Twitter_logo_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_logo_blue.png; sourceTree = "<group>"; };
 		384BB70A1A12B72B00576356 /* FB-fLogo-Blue-printpackaging.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "FB-fLogo-Blue-printpackaging.tif"; sourceTree = "<group>"; };
-		385F7F001A0EEA65006EC126 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		385F7F021A0EEA7C006EC126 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		385F7F041A0EEA81006EC126 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		385F7F081A0EEAD4006EC126 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C60C1A1A3A7B63009423E3 /* libsqlite3.dylib in Frameworks */,
-				385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */,
 				38E7BBE71A38272900D8F731 /* SystemConfiguration.framework in Frameworks */,
 				38E7BBE51A38272000D8F731 /* StoreKit.framework in Frameworks */,
 				38E7BBE31A38271800D8F731 /* Security.framework in Frameworks */,
@@ -180,7 +177,6 @@
 				385F7F081A0EEAD4006EC126 /* Crashlytics.framework */,
 				385F7F041A0EEA81006EC126 /* AddressBook.framework */,
 				385F7F021A0EEA7C006EC126 /* Social.framework */,
-				385F7F001A0EEA65006EC126 /* CloudKit.framework */,
 				85516F35527E6D59F0D263D4 /* libPods-Enso.a */,
 				38E7BBCE1A3826A200D8F731 /* Parse.framework */,
 				38E7BBD01A3826A200D8F731 /* ParseFacebookUtils.framework */,
