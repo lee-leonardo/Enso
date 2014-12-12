@@ -30,6 +30,7 @@
 		38A2B83E1A1DDB7400E16F67 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A2B83D1A1DDB7400E16F67 /* MenuViewController.swift */; };
 		38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */; };
 		38B5AB0B1A084E4E00BC6EC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */; };
+		38C60C1A1A3A7B63009423E3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C60C191A3A7B63009423E3 /* libsqlite3.dylib */; };
 		38DAF2101A1DD92B0052DDB8 /* JMBackgroundCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF20F1A1DD92B0052DDB8 /* JMBackgroundCameraView.m */; };
 		38E17A551A11840700CEC32E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E17A541A11840700CEC32E /* LogInViewController.swift */; };
 		38E7BBD21A3826A200D8F731 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7BBCE1A3826A200D8F731 /* Parse.framework */; };
@@ -89,6 +90,7 @@
 		38A2B83D1A1DDB7400E16F67 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsoDocumentController.swift; sourceTree = "<group>"; };
 		38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		38C60C191A3A7B63009423E3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		38DAF20E1A1DD92B0052DDB8 /* JMBackgroundCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBackgroundCameraView.h; sourceTree = "<group>"; };
 		38DAF20F1A1DD92B0052DDB8 /* JMBackgroundCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBackgroundCameraView.m; sourceTree = "<group>"; };
 		38E17A541A11840700CEC32E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C60C1A1A3A7B63009423E3 /* libsqlite3.dylib in Frameworks */,
 				38E7BBE71A38272900D8F731 /* SystemConfiguration.framework in Frameworks */,
 				38E7BBE51A38272000D8F731 /* StoreKit.framework in Frameworks */,
 				38E7BBE31A38271800D8F731 /* Security.framework in Frameworks */,
@@ -162,6 +165,7 @@
 		385F7F061A0EEA88006EC126 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				38C60C191A3A7B63009423E3 /* libsqlite3.dylib */,
 				38E7BBE61A38272900D8F731 /* SystemConfiguration.framework */,
 				38E7BBE41A38271F00D8F731 /* StoreKit.framework */,
 				38E7BBE21A38271800D8F731 /* Security.framework */,
@@ -540,6 +544,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Leonardo Lee (X3MR64JMP5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -634,7 +639,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Enso/Enso.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Leonardo Lee (X3MR64JMP5)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
