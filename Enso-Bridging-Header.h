@@ -3,10 +3,10 @@
 //
 
 #import <FacebookSDK/FacebookSDK.h>
-#import <Bolts/Bolts.h>
+//#import <Bolts/Bolts.h>
 #import <Parse/Parse.h>
-#import <ParseCrashReporting/ParseCrashReporting.h>
-#import <ParseFacebookUtils/PFFacebookUtils.h>
+//#import <ParseCrashReporting/ParseCrashReporting.h>
+//#import <ParseFacebookUtils/PFFacebookUtils.h>
 //#import <ParseUI/ParseUI.h>
 
 #import "JMBackgroundCameraView.h"

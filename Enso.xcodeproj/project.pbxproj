@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38104BD31A10053200732839 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38104ABD1A10053200732839 /* Bolts.framework */; };
 		38104BD41A10053200732839 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38104ABE1A10053200732839 /* FacebookSDK.framework */; };
 		3830333B1A1DDD9500F46C83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3830333A1A1DDD9500F46C83 /* QuartzCore.framework */; };
 		384BB7081A12B6BD00576356 /* Twitter_logo_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 384BB7061A12B6BD00576356 /* Twitter_logo_blue.png */; };
@@ -34,7 +33,6 @@
 		38DAF2101A1DD92B0052DDB8 /* JMBackgroundCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF20F1A1DD92B0052DDB8 /* JMBackgroundCameraView.m */; };
 		38E17A551A11840700CEC32E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E17A541A11840700CEC32E /* LogInViewController.swift */; };
 		38E7BBD21A3826A200D8F731 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7BBCE1A3826A200D8F731 /* Parse.framework */; };
-		38E7BBD31A3826A200D8F731 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7BBCF1A3826A200D8F731 /* ParseCrashReporting.framework */; };
 		38E7BBD41A3826A200D8F731 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7BBD01A3826A200D8F731 /* ParseFacebookUtils.framework */; };
 		38E7BBD51A3826A200D8F731 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7BBD11A3826A200D8F731 /* ParseUI.framework */; };
 		38E7BBD71A3826DE00D8F731 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E7BBD61A3826DE00D8F731 /* CFNetwork.framework */; };
@@ -63,7 +61,6 @@
 		0E5E013819D52851D7F75651 /* Pods-Enso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enso.release.xcconfig"; path = "Pods/Target Support Files/Pods-Enso/Pods-Enso.release.xcconfig"; sourceTree = "<group>"; };
 		25AA5C5B1EAE3DE26C87ABE0 /* Pods-Enso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Enso.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Enso/Pods-Enso.debug.xcconfig"; sourceTree = "<group>"; };
 		38104AB81A1003A200732839 /* Enso-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Enso-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		38104ABD1A10053200732839 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
 		38104ABE1A10053200732839 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		3830333A1A1DDD9500F46C83 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		384BB7061A12B6BD00576356 /* Twitter_logo_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter_logo_blue.png; sourceTree = "<group>"; };
@@ -95,7 +92,6 @@
 		38DAF20F1A1DD92B0052DDB8 /* JMBackgroundCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBackgroundCameraView.m; sourceTree = "<group>"; };
 		38E17A541A11840700CEC32E /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		38E7BBCE1A3826A200D8F731 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Documents/parse-library-1.6.0/Parse.framework"; sourceTree = "<group>"; };
-		38E7BBCF1A3826A200D8F731 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "../../../Documents/parse-library-1.6.0/ParseCrashReporting.framework"; sourceTree = "<group>"; };
 		38E7BBD01A3826A200D8F731 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../Documents/parse-library-1.6.0/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
 		38E7BBD11A3826A200D8F731 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../Documents/parse-library-1.6.0/ParseUI.framework"; sourceTree = "<group>"; };
 		38E7BBD61A3826DE00D8F731 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -117,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C60C1A1A3A7B63009423E3 /* libsqlite3.dylib in Frameworks */,
+				385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */,
 				38E7BBE71A38272900D8F731 /* SystemConfiguration.framework in Frameworks */,
 				38E7BBE51A38272000D8F731 /* StoreKit.framework in Frameworks */,
 				38E7BBE31A38271800D8F731 /* Security.framework in Frameworks */,
@@ -128,18 +125,15 @@
 				38E7BBD91A3826E600D8F731 /* AudioToolbox.framework in Frameworks */,
 				38E7BBD71A3826DE00D8F731 /* CFNetwork.framework in Frameworks */,
 				385F7F051A0EEA81006EC126 /* AddressBook.framework in Frameworks */,
-				38E7BBD51A3826A200D8F731 /* ParseUI.framework in Frameworks */,
-				385F7F0B1A0EEAD4006EC126 /* Fabric.framework in Frameworks */,
 				385F7F031A0EEA7C006EC126 /* Social.framework in Frameworks */,
-				385F7F0A1A0EEAD4006EC126 /* Crashlytics.framework in Frameworks */,
-				385F7F011A0EEA65006EC126 /* CloudKit.framework in Frameworks */,
 				38E7BBD21A3826A200D8F731 /* Parse.framework in Frameworks */,
-				38E7BBD31A3826A200D8F731 /* ParseCrashReporting.framework in Frameworks */,
-				38104BD41A10053200732839 /* FacebookSDK.framework in Frameworks */,
-				385F7F0E1A0EEB3E006EC126 /* TwitterKit.framework in Frameworks */,
-				38104BD31A10053200732839 /* Bolts.framework in Frameworks */,
-				FA8C5C64505EA817721E3620 /* libPods-Enso.a in Frameworks */,
 				38E7BBD41A3826A200D8F731 /* ParseFacebookUtils.framework in Frameworks */,
+				38E7BBD51A3826A200D8F731 /* ParseUI.framework in Frameworks */,
+				38104BD41A10053200732839 /* FacebookSDK.framework in Frameworks */,
+				385F7F0B1A0EEAD4006EC126 /* Fabric.framework in Frameworks */,
+				385F7F0E1A0EEB3E006EC126 /* TwitterKit.framework in Frameworks */,
+				385F7F0A1A0EEAD4006EC126 /* Crashlytics.framework in Frameworks */,
+				FA8C5C64505EA817721E3620 /* libPods-Enso.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +171,6 @@
 				38E7BBD61A3826DE00D8F731 /* CFNetwork.framework */,
 				3830333A1A1DDD9500F46C83 /* QuartzCore.framework */,
 				38DAF20D1A1DD9030052DDB8 /* JMBackgroundCameraView */,
-				38104ABD1A10053200732839 /* Bolts.framework */,
 				38104ABE1A10053200732839 /* FacebookSDK.framework */,
 				385F7F091A0EEAD4006EC126 /* Fabric.framework */,
 				385F7F0C1A0EEB3E006EC126 /* TwitterKit.framework */,
@@ -188,7 +181,6 @@
 				385F7F001A0EEA65006EC126 /* CloudKit.framework */,
 				85516F35527E6D59F0D263D4 /* libPods-Enso.a */,
 				38E7BBCE1A3826A200D8F731 /* Parse.framework */,
-				38E7BBCF1A3826A200D8F731 /* ParseCrashReporting.framework */,
 				38E7BBD01A3826A200D8F731 /* ParseFacebookUtils.framework */,
 				38E7BBD11A3826A200D8F731 /* ParseUI.framework */,
 			);
@@ -562,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -599,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
