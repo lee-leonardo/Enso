@@ -28,6 +28,7 @@
 		38A1F7C91A11993F00D80F86 /* FacebookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A1F7C81A11993F00D80F86 /* FacebookController.swift */; };
 		38A2B83E1A1DDB7400E16F67 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A2B83D1A1DDB7400E16F67 /* MenuViewController.swift */; };
 		38A5FB1619CAA78300FCB998 /* EnsoDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */; };
+		38B490FF1A3BAF040034417B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B490FE1A3BAF040034417B /* NotificationController.swift */; };
 		38B5AB0B1A084E4E00BC6EC4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */; };
 		38C60C1A1A3A7B63009423E3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C60C191A3A7B63009423E3 /* libsqlite3.dylib */; };
 		38DAF2101A1DD92B0052DDB8 /* JMBackgroundCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DAF20F1A1DD92B0052DDB8 /* JMBackgroundCameraView.m */; };
@@ -86,6 +87,7 @@
 		38A1F7C81A11993F00D80F86 /* FacebookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookController.swift; sourceTree = "<group>"; };
 		38A2B83D1A1DDB7400E16F67 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		38A5FB1519CAA78300FCB998 /* EnsoDocumentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnsoDocumentController.swift; sourceTree = "<group>"; };
+		38B490FE1A3BAF040034417B /* NotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		38B5AB0A1A084E4E00BC6EC4 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		38C60C191A3A7B63009423E3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		38DAF20E1A1DD92B0052DDB8 /* JMBackgroundCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBackgroundCameraView.h; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			children = (
 				38104AB81A1003A200732839 /* Enso-Bridging-Header.h */,
 				388AC74E19CA99300083A276 /* AppDelegate.swift */,
+				38B490FE1A3BAF040034417B /* NotificationController.swift */,
 				388AC77119CA99360083A276 /* Model */,
 				388AC77319CA99430083A276 /* Controller */,
 				388AC77219CA993E0083A276 /* View */,
@@ -469,6 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B490FF1A3BAF040034417B /* NotificationController.swift in Sources */,
 				38B5AB0B1A084E4E00BC6EC4 /* Extensions.swift in Sources */,
 				388AC75419CA99300083A276 /* ViewController.swift in Sources */,
 				38E17A551A11840700CEC32E /* LogInViewController.swift in Sources */,

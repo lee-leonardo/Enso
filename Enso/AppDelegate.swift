@@ -81,29 +81,54 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.saveContext()
     }
     
-    //MARK: - Remote Notifications
+    //MARK: - Notifications
     
+    
+    //MARK: Remote Notifications
+    
+    //Check remote notification settings
     func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
         let currentInstallation = PFInstallation.currentInstallation()
         currentInstallation.setDeviceTokenFromData(deviceToken)
+        currentInstallation.saveInBackgroundWithBlock {
+            (bool, error) -> Void in
+            //
+        }
 //        currentInstallation.saveInBackground()
         
     }
     
+    //When app is open
     func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
         PFPush.handlePush(userInfo)
     }
     
-    //MARK: - Location Notifications
-//    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
-//        
+    //When app is not open.
+//    func application(application: UIApplication, handleActionWithIdentifier identifier: String?, forRemoteNotification userInfo: [NSObject : AnyObject], completionHandler: () -> Void) {
 //    }
     
+    //MARK: Local Notifications
+    
+    //Checks local  notification settings
+    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
+        let types = UIUserNotificationType.Sound | UIUserNotificationType.Alert
+        //Category can go here when needed.s
+        let desiredSettings = UIUserNotificationSettings(forTypes: types, categories: nil)
+        
+//        NSURL(string: UIApplicationOpenSettingsURLString) //This will open settings
+        
+    }
+    
+    //When app is open.
 //    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
-//        
+    //Look up drunkards walk did receive to get the enums working.
 //    }
     
+    //When app is not open.
+//    func application(application: UIApplication, handleActionWithIdentifier identifier: String?, forLocalNotification notification: UILocalNotification, completionHandler: () -> Void) {
+//    }
 
+    
     // MARK: - Core Data stack
 
     lazy var applicationDocumentsDirectory: NSURL = {
